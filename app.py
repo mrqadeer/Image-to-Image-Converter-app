@@ -45,7 +45,8 @@ def main():
             file_path = f"images/{file.name}"
             with st.spinner("Converting"):
                 converted_file_path = converter(file_path, selected)
-                st.success(f"Dear {username} your file {name} is converted.")
+                st.success(f"Dear {username} your file {file.name} is converted.")
+                st.balloons()
             
             with cols[1]:
                 st.markdown("### Converted Image")
@@ -55,12 +56,13 @@ def main():
             # Download button for the converted image
             with open(converted_file_path, "rb") as file:
                 converted_image_bytes = file.read()
-            st.download_button(
+            dowload=st.download_button(
                 label="Download Converted Image",
                 data=converted_image_bytes,
-                file_name=f"converted_{username}.{selected.lower()}",
+                file_name=f"converted_{name}.{selected.lower()}",
                 mime="image"
             )
+            
     else:st.warning("Enter Valid name and upload image!")
 if __name__ == "__main__":
     main()
