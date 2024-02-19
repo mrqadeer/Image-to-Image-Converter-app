@@ -16,7 +16,20 @@ header {visibility: hidden;}
 
 .st-emotion-cache-k7vsyb.e1nzilvr2 h4{
     color: rgb(14, 88, 36);
-    font-size: 30px;
-    margin: 380px -1px -85px 41px;
+    font-size: 16px;
+    margin: 500px 0px -100px 80px;
     
 }
+/* .st-emotion-cache-k7vsyb.e1nzilvr2 {
+    position: relative; /* Set position to relative for the sidebar */
+/* } */
+
+/* .st-emotion-cache-k7vsyb.e1nzilvr2 h4 {
+    color: rgb(14, 88, 36);
+    font-size: 16px; */
+    /* position: absolute;  */
+    /* bottom: 500; 
+    left: 40;
+     right: auto;  */
+     /* transform: translate(-50%, 0); */ 
+
