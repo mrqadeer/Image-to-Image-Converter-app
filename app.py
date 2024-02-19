@@ -29,6 +29,7 @@ def main():
         file = st.file_uploader("Upload your file", type=['jpg', 'png', 'jpeg', 'webp'])
         if 'username' not in st.session_state:
             st.session_state.username=""
+        st.markdown("<h4>Made by Qadeer</h4>",unsafe_allow_html=True)
     if (file is not None) and (username is not None and len(username)>=3) :
         st.success(f"Welcome dear {username}")
         formats = ["JPG", "JPEG", "PNG","WEBP","TIF","GIF"]

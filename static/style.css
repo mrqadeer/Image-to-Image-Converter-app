@@ -10,3 +10,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+#MainMenu{visibility:hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+.st-emotion-cache-k7vsyb.e1nzilvr2 h4{
+    color: rgb(14, 88, 36);
+    font-size: 30px;
+    margin: 380px -1px -85px 41px;
+    
+}
