@@ -1,12 +1,15 @@
 import streamlit as st 
+import os
 
+# Construct file path for style.css using os.path.join()
 import cv2
 
 
 from utils.helper import copy_to_project_folder
-st.set_page_config("File Converter")
+st.set_page_config("Image File Converter",page_icon="🗃️")
 st.header("Image Converter")
-with open(r"static\style.css") as style:
+css_path = os.path.join("static", "style.css")
+with open(css_path) as style:
     st.markdown(f"<style>{style.read()}</style>",unsafe_allow_html=True)
 def converter(file_path, format):
     name = file_path.split(".")[0]
