@@ -57,7 +57,7 @@ def main():
             # Download button for the converted image
             with open(converted_file_path, "rb") as file:
                 converted_image_bytes = file.read()
-            dowload=st.download_button(
+            st.download_button(
                 label="Download Converted Image",
                 data=converted_image_bytes,
                 file_name=f"converted_{name}.{selected.lower()}",
