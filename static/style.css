@@ -10,16 +10,17 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+
 #MainMenu{visibility:hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
 
-.st-emotion-cache-k7vsyb.e1nzilvr2 h4{
+/* .st-emotion-cache-k7vsyb.e1nzilvr2 h4{
     color: rgb(14, 88, 36);
     font-size: 16px;
     margin: 500px 0px -100px 80px;
-    
-}
+     */
+/* } */
 /* .st-emotion-cache-k7vsyb.e1nzilvr2 {
     position: relative; /* Set position to relative for the sidebar */
 /* } */
