@@ -75,6 +75,7 @@ def main():
                 st.image(converted_file_path)
         else:
             st.warning("Please convert the image!")
+            st.stop()
         # Download button for the converted image
         with open(converted_file_path, "rb") as file:
             converted_image_bytes = file.read()
